@@ -25,8 +25,8 @@
     <title>Portfolio Website</title>
 
     <style>
-         .nav-link.active {
-             background-color: #ffb400;
+        .nav-link.active {
+            background-color: #ffb400;
             color: #fff;
         }
 
@@ -41,24 +41,25 @@
             width: 18%;
             background-color: #444444;
         }
+
         #dnav {
             background-color: #2b2a2a !important;
         }
-        .fixed-bottom {
-        width: 100%;
-        padding-right: var(--bs-gutter-x,.01rem);
-        padding-left: var(--bs-gutter-x,.01rem);
-        }
 
+        .fixed-bottom {
+            width: 100%;
+            padding-right: var(--bs-gutter-x, .01rem);
+            padding-left: var(--bs-gutter-x, .01rem);
+        }
     </style>
-    
+
 </head>
 
 <body class="home">
-    
+
     <header class="header" id="navbar-collapse-toggle">
         <!-- Fixed Navigation Starts -->
-        <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <ul class="icon-menu d-none d-lg-block">
             <li class="icon-box active">
                 <i class="fa fa-home"></i>
                 <a href="index.html">
@@ -89,7 +90,7 @@
         <nav class="navbar fixed-bottom navbar-light bg-dark d-lg-none d-xl-none" id="dnav">
             <div class="container-fluid">
                 <a class="nav-link active" href="./index.html">
-                    <i data-feather="home"></i>&nbsp; 
+                    <i data-feather="home"></i>&nbsp;
                 </a>
                 <a class="nav-link" id="about" href="./about.html">
                     <i data-feather="user"></i>&nbsp;
@@ -103,55 +104,55 @@
             </div>
         </nav>
         <!-- Mobile Menu Ends -->
-        </header>
-        <!-- Header Ends -->
-        <!-- Main Content Starts -->
-        <section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-            <div class="color-block d-none d-lg-block"></div>
-            <div class="row home-details-container align-items-center">
-                <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-                <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-                    <div>
-                        <img src="./assets/images/mobile-img.jpg" class="img-fluid main-img-mobile d-md-block  d-sm-block d-lg-none"
-                            alt="my picture" />
-                        <h1 class="text-uppercase poppins-font">I'm adeolu gideon.<span>web/UI developer</span></h1>
-                        <p class="open-sans-font" style="text-align: justify;">I'm a Nigerian based freelance front-end web designer and WordPress developer 
-                            who specializes in creating a responsive & quality website with HTML, CSS, JavaScript and 
-                            WordPress Content Management System (CMS) for small & medium scale businesses. </p>
-                        <a class="button mb-5" href="about.html">
-                            <span class="button-text">more about me</span>
-                            <span class="button-icon fa fa-arrow-right"></span>
-                        </a>
-                    </div>
+    </header>
+    <!-- Header Ends -->
+    <!-- Main Content Starts -->
+    <section data-aos="fade-down" class="container-fluid main-container container-home p-0">
+        <div class="color-block d-none d-lg-block"></div>
+        <div class="row home-details-container align-items-center">
+            <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
+            <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
+                <div>
+                    <img src="./assets/images/mobile-img.jpg"
+                        class="img-fluid main-img-mobile d-md-block  d-sm-block d-lg-none" alt="my picture" />
+                    <h1 class="text-uppercase poppins-font">I'm adeolu gideon.<span>web/UI developer</span></h1>
+                    <p class="open-sans-font" style="text-align: justify;">I'm a Nigerian based freelance front-end web
+                        designer and WordPress developer
+                        who specializes in creating a responsive & quality website with HTML, CSS, JavaScript and
+                        WordPress Content Management System (CMS) for small & medium scale businesses. </p>
+                    <a class="button mb-5" href="about.html">
+                        <span class="button-text">more about me</span>
+                        <span class="button-icon fa fa-arrow-right"></span>
+                    </a>
                 </div>
             </div>
-        </section>
-        <!-- Main Content Ends -->    
+        </div>
+    </section>
+    <!-- Main Content Ends -->
 
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <script src="./assets/js/aos/aos.js"></script>
-        <script src="./assets/js/aos/aos-init.js"></script>
-        <script src="./assets/js/revealator.js"></script>
-        <script src="./assets/js/custom.js"></script>
-        <script src="./assets/js/imagesload.min.js"></script>
-        <script src="./assets/js/hover.js"></script>
-        <script src="./assets/js/gallery.js"></script>
-        <script src="./assets/js/classie.js"></script>
-        <script>
-            feather.replace()
-        </script>
-        <script>
-            AOS.init();
-        </script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/aos/aos.js"></script>
+    <script src="./assets/js/aos/aos-init.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/imagesload.min.js"></script>
+    <script src="./assets/js/hover.js"></script>
+    <script src="./assets/js/gallery.js"></script>
+    <script src="./assets/js/classie.js"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 
 </html>
